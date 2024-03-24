@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>page 1</title>
+  </head>
+
+  <body>
+
+    <a href="index.html" style="position: absolute; top: 1rem; right: 1rem;">Home</a>
+
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Rating</th>
+        <th>Homework</th>
+        <th>Language</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>3/19/2024</td>
+      </tr>
+    </table>
+
+    <br />
+
+    <form>
+      <label for="name">Name</label>
+      <input type="text" name="name" />
+
+      <br />
+      <br />
+
+      <label for="date">Date</label>
+      <input type="date" name="date" />
+
+      <br />
+      <br />
+
+      <label for="rating">Rating</label>
+      <select name="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="homework">Was there homework?</label>
+      <input type="checkbox" name="homework" />
+
+      <br />
+      <br />
+
+      <label>Language of instruction:</label>
+      <input type="radio" id="fr" name="language" value="Fr" />
+      <label for="fr">Fr</label>
+      <input type="radio" id="en" name="language" value="En" />
+      <label for="en">En</label>
+
+      <br />
+      <br />
+
+      <input type="submit" value="Add" />
+    </form>
+  </body>
+</html>
